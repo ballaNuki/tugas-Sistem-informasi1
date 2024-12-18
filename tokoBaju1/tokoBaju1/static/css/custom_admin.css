@@ -1,0 +1,19 @@
+/* custom_admin.css */
+body {
+    background-color: #f4f4f9;
+}
+
+.module {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.header {
+    background-color: #004085;
+    color: white;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+}

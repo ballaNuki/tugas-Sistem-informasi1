@@ -1,0 +1,17 @@
+{% extends "admin/base_site.html" %}
+
+{% block title %}
+    Custom Admin - {{ title }}
+{% endblock %}
+
+{% block branding %}
+    <h1 style="color: #4CAF50;">Welcome to My Custom Admin!</h1>
+{% endblock %}
+
+{% block content %}
+    <div class="custom-admin-header">
+        <h2>Welcome to the Admin Dashboard</h2>
+        <p>Customized version of the Django admin.</p>
+    </div>
+    {{ block.super }}
+{% endblock %}
